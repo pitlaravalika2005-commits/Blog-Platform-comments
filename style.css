@@ -1,0 +1,92 @@
+body {
+  margin: 0;
+  font-family: Arial;
+  background: linear-gradient(135deg, #74ebd5, #acb6e5);
+}
+
+/* HEADER */
+header {
+  text-align: center;
+  padding: 25px;
+  background: linear-gradient(90deg, #ff512f, #dd2476);
+  color: white;
+}
+
+/* CONTAINER */
+.container {
+  width: 80%;
+  margin: auto;
+  padding: 20px;
+}
+
+/* CREATE BOX */
+.create-box {
+  background: white;
+  padding: 20px;
+  border-radius: 15px;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+}
+
+input, textarea {
+  width: 100%;
+  margin-top: 10px;
+  padding: 10px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+}
+
+textarea {
+  height: 100px;
+}
+
+/* BUTTON */
+button {
+  margin-top: 10px;
+  padding: 10px;
+  width: 100%;
+  border: none;
+  border-radius: 8px;
+  background: linear-gradient(90deg, #36d1dc, #5b86e5);
+  color: white;
+  cursor: pointer;
+}
+
+button:hover {
+  background: linear-gradient(90deg, #ff512f, #dd2476);
+}
+
+/* POST CARD */
+.post {
+  background: white;
+  padding: 15px;
+  margin-top: 20px;
+  border-radius: 15px;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+}
+
+.post h3 {
+  margin: 0;
+}
+
+.actions {
+  margin-top: 10px;
+}
+
+.actions button {
+  width: auto;
+  margin-right: 10px;
+  padding: 5px 10px;
+}
+
+/* COMMENTS */
+.comment-box {
+  margin-top: 10px;
+}
+
+.comment-box input {
+  width: 80%;
+}
+
+.comment-box button {
+  width: 18%;
+}

@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Blog Platform</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header>
+  <h1>📝 My Blog Platform</h1>
+  <p>Create, Edit, Delete & Comment Posts</p>
+</header>
+
+<div class="container">
+
+  <div class="create-box">
+    <h2>Create New Post</h2>
+
+    <input type="text" id="title" placeholder="Post Title">
+    <textarea id="content" placeholder="Write your blog..."></textarea>
+
+    <button onclick="addPost()">Publish Post</button>
+  </div>
+
+  <div id="posts"></div>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
